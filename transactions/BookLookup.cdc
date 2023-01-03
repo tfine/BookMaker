@@ -1,6 +1,6 @@
 // transaction to get info about a particular book number
 
-import BookMaker from 0x01
+import BookMaker from "../contracts/BookMaker.cdc"
 
 transaction(booknum:Int){
 prepare(signer: AuthAccount) {}
