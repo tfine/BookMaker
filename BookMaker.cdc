@@ -98,3 +98,4 @@ access(all) contract BookMaker {
         self.books[booknum].review[pagenum].change(edit: edit)
     }
 }
+ 
