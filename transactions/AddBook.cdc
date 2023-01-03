@@ -1,6 +1,6 @@
 // transaction to add a new book with array of all pages
 
-import BookMaker from 0x01
+import BookMaker from "../contracts/BookMaker.cdc"
 
 transaction(author: String, title: String, pages: [String], account: Address) 
  {
