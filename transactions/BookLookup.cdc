@@ -3,11 +3,12 @@
 import BookMaker from "../contracts/BookMaker.cdc"
 
 transaction(booknum:Int){
-prepare(signer: AuthAccount) {}
+prepare(signer: AuthAccount) {
+
+}
 
 execute {
-    log(BookMaker.creator)
-    log(BookMaker.listbooks())
     log(BookMaker.bookinfo(booknum:booknum))
     }
 }
+ 
